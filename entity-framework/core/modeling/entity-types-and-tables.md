@@ -1,11 +1,11 @@
 ---
-title: Types and Tables - EF Core
+title: Entity Types and Tables - EF Core
 author: roji
 ms.date: 12/03/2019
 ms.assetid: cbe6935e-2679-4b77-8914-a8d772240cf1
-uid: core/modeling/types-and-tables
+uid: core/modeling/entity-types-and-tables
 ---
-# Types and Tables
+# Entity Types and Tables
 
 Including a type on your context means that it is included in EF Core's model; we usually refer to such a type as an *entity*. EF Core can read and write entity instances from/to the database, and if you're using a relational database, EF Core can create tables for your entities via migrations.
 
@@ -19,7 +19,7 @@ In the code sample below, all types are included:
 * `Post` is included because it's discovered via the `Blog.Posts` navigation property.
 * `AuditEntry` because it is specified in `OnModelCreating`.
 
-[!code-csharp[Main](../../../samples/core/Modeling/Conventions/TypesAndTables.cs?highlight=3,7,16)]
+[!code-csharp[Main](../../../samples/core/Modeling/Conventions/EntityTypesAndTables.cs?highlight=3,7,16)]
 
 ## Excluding types from the model
 

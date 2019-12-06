@@ -79,8 +79,8 @@
       items:
       - name: Overview
         href: core/modeling/index.md
-      - name: "Types & Tables"
-        href: core/modeling/types-and-tables.md
+      - name: "Entity Types & Tables"
+        href: core/modeling/entity-types-and-tables.md
       - name: "Including & Excluding Properties"
         href: core/modeling/included-properties.md
       - name: Keys (primary)

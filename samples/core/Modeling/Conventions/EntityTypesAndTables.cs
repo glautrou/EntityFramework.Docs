@@ -1,9 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
-namespace EFModeling.Conventions.TypesAndTables
+namespace EFModeling.Conventions.EntityTypesAndTables
 {
-    #region TypesAndTables
+    #region EntityTypesAndTables
     class MyContext : DbContext
     {
         public DbSet<Blog> Blogs { get; set; }
