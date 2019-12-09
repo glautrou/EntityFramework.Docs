@@ -145,6 +145,12 @@ An implementation of temporal support for EF Core.
 
 [GitHub repository](https://github.com/cpoDesign/EFCore.TemporalSupport)
 
+### EfCoreTemporalTable
+
+Easily perform temporal queries on your favourite database. For EF Core: [2](https://www.nuget.org/packages/EfCoreTemporalTable.EfCore2/), [3](https://www.nuget.org/packages/EfCoreTemporalTable/).
+
+[GitHub repository](https://github.com/glautrou/EfCoreTemporalTable)
+
 ### EntityFrameworkCore.Cacheable
 
 A high-performance second-level query cache for EF Core.
