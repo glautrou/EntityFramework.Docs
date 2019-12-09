@@ -122,7 +122,7 @@ An implementation of temporal support. For EF Core: 2.
 
 ### EfCoreTemporalTable
 
-Easily perform temporal queries on your favourite database. For EF Core: 3.
+Easily perform temporal queries on your favourite database. For EF Core: [2](https://www.nuget.org/packages/EfCoreTemporalTable.EfCore2/), [3](https://www.nuget.org/packages/EfCoreTemporalTable/).
 
 [GitHub repository](https://github.com/glautrou/EfCoreTemporalTable)
 
